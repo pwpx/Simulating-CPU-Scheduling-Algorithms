@@ -1,5 +1,7 @@
 ﻿# Simulating CPU Scheduling Algorithms
 
+## [Task](./ConsoleApp1/md/task.md)
+
 ## Content:
 
 ### [First-Come, First-Served (FCFS)](./ConsoleApp1/md/FCFS.md)
