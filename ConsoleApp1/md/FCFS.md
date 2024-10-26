@@ -37,6 +37,7 @@ Average Turnaround Time: 46.20
 Average Waiting Time: 41.80
 CPU Utilization: 100.00%
 Throughput: 0.23 processes/unit time
+
 ProcessID       ArrivalTime     BurstTime       CompletionTime  TurnaroundTime  WaitingTime     Priority
 1               0               1               1               1               0               9
 18              0               9               10              10              1               6
