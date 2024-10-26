@@ -1,4 +1,4 @@
-﻿[Back to README](https://github.com/pwpx/Simulating-CPU-Scheduling-Algorithms/blob/351f850e70ed00775947d66e0f7b00d0487fe114/README.md)
+﻿[Back to README](../../README.md)
 # Multilevel Queue Scheduling
 
 Multilevel Queue Scheduling is a CPU scheduling algorithm that partitions the ready queue into multiple queues based on process characteristics such as priority, process type, or other criteria. Each queue can have its own scheduling algorithm, priority, and time quantum. Processes are assigned to different queues based on their attributes, and each queue is processed independently.

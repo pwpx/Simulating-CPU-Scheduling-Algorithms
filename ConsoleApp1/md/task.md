@@ -1,4 +1,5 @@
-﻿# Assignment: Simulating CPU Scheduling Algorithms
+﻿[Back to README](../../README.md)
+# Assignment: Simulating CPU Scheduling Algorithms
 
 ## Objective
 The purpose of this assignment is to deepen your understanding of CPU scheduling by implementing and simulating five different scheduling algorithms. You will simulate process generation, apply scheduling algorithms, and measure performance using both preemptive and non-preemptive scheduling techniques.
@@ -58,3 +59,4 @@ Submit the following:
 - **Performance Measurement**: Accurately measure and compare performance metrics (turnaround time, waiting time, CPU utilization, throughput) for each algorithm.
 - **Clarity of Code**: Code should be well-documented, modular, and easy to understand.
 - **Report Quality**: The report should clearly present the methodology, simulation results, and comparative analysis of preemptive and non-preemptive scheduling algorithms.
+

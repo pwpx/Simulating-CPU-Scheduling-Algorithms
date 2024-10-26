@@ -1,4 +1,4 @@
-﻿[Back to README](https://github.com/pwpx/Simulating-CPU-Scheduling-Algorithms/blob/351f850e70ed00775947d66e0f7b00d0487fe114/README.md)
+﻿[Back to README](../../README.md)
 # Priority Scheduling
 
 Priority Scheduling is a non-preemptive CPU scheduling algorithm where each process is assigned a priority. The process with the highest priority is selected for execution first. If two processes have the same priority, they are executed in the order they arrive. Priority can be defined based on various factors such as the process's burst time, arrival time, or any other criteria. It can be implemented with both preemptive and non-preemptive versions.

@@ -6,9 +6,8 @@ class Program
     static void Main(string[] args)
     {
         SchedulingAlgorithms scheduler = new SchedulingAlgorithms();
-        int timeQuantum = 4; // Time quantum for Round Robin and Multilevel Queue
-
-        // Run simulations for each algorithm
+        int timeQuantum = 4;
+        
         Console.WriteLine("Running First-Come, First-Served (FCFS)...");
         var processesFCFS = GenerateRandomProcesses(20);
         scheduler.FirstComeFirstServed(processesFCFS);
@@ -44,8 +43,7 @@ class Program
         scheduler.MultilevelQueueScheduling(processesMultilevelQueue, timeQuantum);
         DisplayProcessInfo(processesMultilevelQueue);
     }
-
-    // Method to generate a list of random processes
+    
     static List<Process> GenerateRandomProcesses(int count)
     {
         Random rand = new Random();
@@ -53,17 +51,16 @@ class Program
 
         for (int i = 1; i <= count; i++)
         {
-            int arrivalTime = rand.Next(0, 10); // Random arrival time between 0 and 9
-            int burstTime = rand.Next(1, 10); // Random burst time between 1 and 9
-            int priority = rand.Next(1, 10); // Random priority between 1 and 9
+            int arrivalTime = rand.Next(0, 10);
+            int burstTime = rand.Next(1, 10);
+            int priority = rand.Next(1, 10);
 
             processes.Add(new Process(i, arrivalTime, burstTime, priority));
         }
 
         return processes;
     }
-
-    // Method to display information about each process
+    
     static void DisplayProcessInfo(List<Process> processes)
     {
         Console.WriteLine("ProcessID\tArrivalTime\tBurstTime\tCompletionTime\tTurnaroundTime\tWaitingTime\tPriority");
@@ -71,8 +68,7 @@ class Program
         {
             Console.WriteLine($"{process.ProcessId}\t\t{process.ArrivalTime}\t\t{process.BurstTime}\t\t{process.CompletionTime}\t\t{process.TurnaroundTime}\t\t{process.WaitingTime}\t\t{process.Priority}");
         }
-
-        // Calculate and display average metrics
+        
         double averageTurnaroundTime = MetricsCalculator.CalculateAverageTurnaroundTime(processes);
         double averageWaitingTime = MetricsCalculator.CalculateAverageWaitingTime(processes);
         double cpuUtilization = MetricsCalculator.CalculateCPUUtilization(processes);
