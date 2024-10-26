@@ -1,4 +1,5 @@
-﻿# Shortest Job First (SJF)
+﻿[Back to README](https://github.com/pwpx/Simulating-CPU-Scheduling-Algorithms/blob/351f850e70ed00775947d66e0f7b00d0487fe114/README.md)
+ # Shortest Job First (SJF)
 The Shortest Job First (SJF) scheduling algorithm is a non-preemptive algorithm that selects the process with the smallest burst time to execute next. This algorithm minimizes the average waiting time and turnaround time by executing shorter processes first. The SJF algorithm can be implemented in both preemptive and non-preemptive modes.
 
 
