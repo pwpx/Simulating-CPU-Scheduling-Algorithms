@@ -5,8 +5,8 @@
 ### [First-Come, First-Served (FCFS)](./ConsoleApp1/md/FCFS.md)
 ### [Shortest Job First (SJF)](./ConsoleApp1/md/SJF.md)
 ### [Round Robin (RR)](./ConsoleApp1/md/RR.md)
-### [Priority Scheduling](PriorityScheduling.md)
-### [Multilevel Queue Scheduling](MQScheduling)
+### [Priority Scheduling](./ConsoleApp1/md/PriorityScheduling.md)
+### [Multilevel Queue Scheduling](./ConsoleApp1/md/MQScheduling.md)
 
 # Summary of the Assignment:
 
