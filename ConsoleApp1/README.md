@@ -2,8 +2,8 @@
 
 ## Content:
 
-### [First Come First Serve (FCFS)](FCFS.md)
-### [Shortest Job First (SJF)](SJF.md)
+### [First-Come, First-Served (FCFS)](../ConsoleApp1/md/FCFS.md)
+### [Shortest Job First (SJF)](../ConsoleApp1/md/SJF.md)
 ### [Round Robin (RR)](RR.md)
 ### [Priority Scheduling](PriorityScheduling.md)
 ### [Multilevel Queue Scheduling](MultilevelQueueScheduling.md)
