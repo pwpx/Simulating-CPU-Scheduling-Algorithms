@@ -1,4 +1,4 @@
-﻿[Back to README](https://github.com/pwpx/Simulating-CPU-Scheduling-Algorithms/blob/351f850e70ed00775947d66e0f7b00d0487fe114/README.md)
+﻿[Back to README](../../README.md)
 # First-Come, First-Served (FCFS) Scheduling Algorithm
 The First-Come, First-Served (FCFS) scheduling algorithm is the simplest CPU scheduling algorithm. In this algorithm, the process that arrives first is the one that gets executed first. The processes are executed in the order they arrive, without any preemption. This algorithm is non-preemptive, meaning that once a process starts executing, it continues until it completes its CPU burst.
 
